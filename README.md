@@ -3,6 +3,7 @@
 This plugin add additionnal keywords stemmers to SearchWP.
 
 Supported languages are :
+
 * English
 * French
 * German
