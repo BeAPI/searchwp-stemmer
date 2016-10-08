@@ -1,0 +1,35 @@
+{
+  "name": "bea/searchwp-stemmer",
+  "description": "Add additionnals stemmers to SearchWP.",
+  "type": "wordpress-plugin",
+  "version": "1.0.0",
+  "license": "GPL2+",
+  "keywords": [
+    "wordpress",
+    "searchwp",
+    "stemmer",
+    "french",
+    "italian",
+    "spanish",
+    "portuguese",
+    "romanian",
+    "swedish",
+    "norwegian",
+    "danish"
+  ],
+  "authors": [
+    {
+      "name": "BeAPI",
+      "homepage": "https://beapi.fr/",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "wamania/php-stemmer": "dev-master"
+  },
+  "autoload": {
+    "psr-4": {
+      "Bea\\SearchWP\\Stemmer\\": "src/"
+    }
+  }
+}
