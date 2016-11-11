@@ -38,7 +38,12 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 define( 'SWP_STEMMER_VERSION', '1.0.0' );
 
-require( __DIR__ . '/vendor/autoload.php' );
+if ( file_exists( __DIR__ . '/vendor/autoload.php' ) ) {
+	/**
+	 * Composer-generated autoload file.
+	 */
+	require_once __DIR__ . '/vendor/autoload.php';
+}
 
 function load_searchwp_stemmer() {
 	new SearchWP_Stemmer_Loader();
