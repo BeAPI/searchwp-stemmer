@@ -1,6 +1,6 @@
 # SearchWP Stemmer
 
-This plugin add additionnal keywords stemmers to SearchWP.
+This plugin add additional keywords stemmers to SearchWP.
 
 Supported languages are :
 
@@ -10,7 +10,7 @@ Supported languages are :
 * Dutch
 * Spanish
 * Italian
-* Portugese
+* Portuguese
 * Danish
 * Swedish
 * Norwegian
