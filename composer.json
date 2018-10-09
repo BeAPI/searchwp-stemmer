@@ -2,7 +2,6 @@
   "name": "bea/searchwp-stemmer",
   "description": "Add additionnals stemmers to SearchWP.",
   "type": "wordpress-plugin",
-  "version": "1.0.0",
   "license": "GPL2+",
   "keywords": [
     "wordpress",
@@ -25,7 +24,8 @@
     }
   ],
   "require": {
-    "wamania/php-stemmer": "dev-master"
+    "php": ">=5.4.0",
+    "wamania/php-stemmer": "^1.0"
   },
   "autoload": {
     "psr-4": {

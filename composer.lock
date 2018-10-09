@@ -1,24 +1,23 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "hash": "d65b3c906226cff5f484ac720e42ed3f",
-    "content-hash": "4852e8e2826b944f06fc04aebb945738",
+    "content-hash": "f05609ffc7ad2f5e14eced2cb441ca30",
     "packages": [
         {
             "name": "wamania/php-stemmer",
-            "version": "dev-master",
+            "version": "1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/wamania/php-stemmer.git",
-                "reference": "09bca473e8a88e4e40147b46d8ca95970eab7982"
+                "reference": "6cc76829bddd46f7ae7678e0bf87a0c872c8cf58"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wamania/php-stemmer/zipball/09bca473e8a88e4e40147b46d8ca95970eab7982",
-                "reference": "09bca473e8a88e4e40147b46d8ca95970eab7982",
+                "url": "https://api.github.com/repos/wamania/php-stemmer/zipball/6cc76829bddd46f7ae7678e0bf87a0c872c8cf58",
+                "reference": "6cc76829bddd46f7ae7678e0bf87a0c872c8cf58",
                 "shasum": ""
             },
             "require": {
@@ -29,8 +28,8 @@
             },
             "type": "library",
             "autoload": {
-                "psr-0": {
-                    "Wamania": "src/"
+                "psr-4": {
+                    "Wamania\\Snowball\\": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -49,17 +48,17 @@
                 "porter",
                 "stemmer"
             ],
-            "time": "2016-03-07 18:11:29"
+            "time": "2017-01-27T17:16:44+00:00"
         }
     ],
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "wamania/php-stemmer": 20
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
-    "platform": [],
+    "platform": {
+        "php": ">=5.4.0"
+    },
     "platform-dev": []
 }
