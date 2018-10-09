@@ -2,7 +2,7 @@
 /*
 Plugin Name: SearchWP Stemmer
 Description: Add additionnals stemmers to SearchWP.
-Version: 1.0.1
+Version: 1.0.2
 Author: BeAPI
 Author URI: https://beapi.fr
 Text Domain: searchwp-stemmer
@@ -36,7 +36,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 
-define( 'SWP_STEMMER_VERSION', '1.0.1' );
+define( 'SWP_STEMMER_VERSION', '1.0.2' );
 
 if ( file_exists( __DIR__ . '/vendor/autoload.php' ) ) {
 	/**
